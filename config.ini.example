@@ -1,0 +1,6 @@
+[mysql]
+enable = True
+host = mysql
+user = twr
+passwd = twr
+db = twr
