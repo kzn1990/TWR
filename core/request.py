@@ -1,7 +1,7 @@
 import logging
 import requests
-from extractor import Extractor
-from reporter import MysqlReporter
+from core.extractor import Extractor
+from core.reporter import MysqlReporter
 import time
 
 class WebWrapper:

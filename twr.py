@@ -3,9 +3,9 @@
 
 import logging
 import coloredlogs
-from reporter import MysqlReporter
-from request import WebWrapper
-from extractor import Extractor
+from core.reporter import MysqlReporter
+from core.request import WebWrapper
+from core.extractor import Extractor
 import sys
 
 coloredlogs.install(
